@@ -1,0 +1,5 @@
+# requirements.txt
+# Empty for now since this is terminal based
+# If you add pandas/matplotlib later, you can add:
+# pandas
+# matplotlib
