@@ -1,0 +1,38 @@
+let bars = [];
+
+function generateBars() {
+  const container = document.getElementById('container');
+  container.innerHTML = '';
+  bars = [];
+
+  for (let i = 0; i < 30; i++) {
+    let height = Math.floor(Math.random() * 300) + 20;
+    let bar = document.createElement('div');
+    bar.style.height = `${height}px`;
+    bar.style.width = '10px';
+    bar.className = 'bar';
+    container.appendChild(bar);
+    bars.push(bar);
+  }
+}
+
+async function bubbleSort() {
+  for (let i = 0; i < bars.length; i++) {
+    for (let j = 0; j < bars.length - i - 1; j++) {
+      bars[j].style.background = 'red';
+      bars[j+1].style.background = 'red';
+
+      await new Promise(resolve => setTimeout(resolve, 50));
+
+      let h1 = parseInt(bars[j].style.height);
+      let h2 = parseInt(bars[j+1].style.height);
+      if (h1 > h2) {
+        bars[j].style.height = `${h2}px`;
+        bars[j+1].style.height = `${h1}px`;
+      }
+
+      bars[j].style.background = 'teal';
+      bars[j+1].style.background = 'teal';
+    }
+  }
+}
