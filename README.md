@@ -6,7 +6,9 @@ An interactive Python-based application that visually demonstrates fundamental D
 
 ## 📸 Demo Screenshot
 
-![DSA Sorting Visualizer Demo](demo.jpg)
+
+![WhatsApp Image 2025-06-03 at 15 16 19_44aebe3f](https://github.com/user-attachments/assets/4d0d44cb-1f2f-450f-9724-21b0843947ac)
+
 
 ---
 
