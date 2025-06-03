@@ -5,9 +5,7 @@ An interactive Python-based application that visually demonstrates fundamental D
 ---
 ## 📸 Demo Screenshot
 
-> A snapshot of the working application with Bubble Sort in action:
-
-![DSA Sorting Visualizer Demo](./demo.jpg)
+![DSA Sorting Visualizer Demo](https://raw.githubusercontent.com/asif-coder/dsa-visualizer/main/demo.jpg)
 
 ---
 
