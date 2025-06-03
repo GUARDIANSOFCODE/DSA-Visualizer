@@ -3,6 +3,16 @@
 An interactive Python-based application that visually demonstrates fundamental Data Structures and Algorithms (DSA) — focusing primarily on sorting algorithms. This tool helps beginners and students gain an intuitive understanding of algorithm behavior through real-time animation and graphical representation.
 
 ---
+## 📸 Demo Screenshot
+
+> A snapshot of the working application with Bubble Sort in action:
+
+![DSA Sorting Visualizer Demo](./demo.jpg)
+
+---
+
+
+
 
 ## 🚀 Features
 
